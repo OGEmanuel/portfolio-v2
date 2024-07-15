@@ -2,7 +2,7 @@ import switchOnline from '@/public/images/switch-online-home.png';
 import dashboard from '@/public/images/dashboard.png';
 import duwitt from '@/public/images/Duwitt.png';
 import tester from '@/public/images/api-tester.png';
-import awaskill from '@/public/images/awaskill.png';
+import awaskill from '@/public/images/Awaskill.png';
 import codeEditor from '@/public/images/code-editor.png';
 import portfolio from '@/public/images/portfolio.png';
 

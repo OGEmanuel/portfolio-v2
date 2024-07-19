@@ -27,7 +27,7 @@ const Projects = () => {
 
   return (
     <div
-      className={`cursor-none`}
+      className={`xl:cursor-none`}
       onMouseEnter={() => setIsVisible(true)}
       onMouseLeave={() => setIsVisible(false)}
       onMouseDown={() => setClicked(true)}
@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
         {isVisible && (
           <div
-            className={`flex items-center`}
+            className={`hidden items-center xl:flex`}
             style={{
               position: 'fixed',
               top: `${position.y}px`,
@@ -69,14 +69,6 @@ const Projects = () => {
                 className={`h-6 w-6 transition-all ${clicked && '-rotate-45'}`}
               />
             </div>
-
-            {/* {!isProject ? (
-              <FaRegArrowAltCircleRight
-                className={`h-6 w-6 transition-all ${clicked && '-rotate-45'}`}
-              />
-            ) : (
-              <div>View Page</div>
-            )} */}
           </div>
         )}
       </ItemSection>

@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-import avatar from '@/public/images/Emmanuel.jpg';
 import BriefcaseIcon from '@/components/briefcase-icon';
 import LocationIcon from '@/components/location-icon';
 import ClockIcon from '@/components/clock-icon';
@@ -9,11 +7,13 @@ import MailIcon from '@/components/mail-icon';
 import DisplayTime from '@/components/display-time';
 import Lottie from 'lottie-react';
 import animationData from '@/animation.json';
+import avatar from '@/public/images/Emmanuel.jpg';
+import Image from 'next/image';
 
 const Header = () => {
   return (
     <section className="flex w-full flex-col items-center justify-center gap-6 sm:w-auto">
-      <div className="relative h-[9.375rem] w-[9.375rem]">
+      <div className="relative h-[9.375rem] w-[9.375rem] rounded-full">
         <Image
           src={avatar}
           alt="avatar"

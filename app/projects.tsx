@@ -2,7 +2,7 @@
 
 import ItemSection from '@/components/item-section';
 import ProjectItem from '@/components/project-item';
-import { PROJECTS } from './projects-list';
+import { PROJECTS } from '../lib/projects-list';
 import { useEffect, useState } from 'react';
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa6';

@@ -1,9 +1,9 @@
 'use client';
 
-import BriefcaseIcon from '@/components/briefcase-icon';
-import LocationIcon from '@/components/location-icon';
-import ClockIcon from '@/components/clock-icon';
-import MailIcon from '@/components/mail-icon';
+import BriefcaseIcon from '@/components/icons/briefcase-icon';
+import LocationIcon from '@/components/icons/location-icon';
+import ClockIcon from '@/components/icons/clock-icon';
+import MailIcon from '@/components/icons/mail-icon';
 import DisplayTime from '@/components/display-time';
 import Lottie from 'lottie-react';
 import animationData from '@/animation.json';

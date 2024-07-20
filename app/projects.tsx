@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
         {isVisible && (
           <div
-            className={`hidden items-center xl:flex`}
+            className={`z-50 hidden items-center xl:flex`}
             style={{
               position: 'fixed',
               top: `${position.y}px`,

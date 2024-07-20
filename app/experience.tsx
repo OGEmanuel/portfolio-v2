@@ -70,7 +70,7 @@ const Experience = () => {
         {EXPERIENCE.map(experience => (
           <Card
             key={experience.id}
-            className={`${experience.company.toLowerCase()} h-[20.3325rem] bg-white`}
+            className={`${experience.company.toLowerCase()} bg-white xl:min-h-[20.3325rem]`}
           >
             <div className="flex flex-col gap-1">
               <p className="text-lg font-semibold text-[#11181C]">

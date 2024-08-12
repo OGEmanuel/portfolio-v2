@@ -43,12 +43,6 @@ export const PROJECTS = [
     image: codeEditor,
     url: 'https://my-code-editor-five.vercel.app/',
   },
-  {
-    id: 7,
-    title: 'My Portfolio Website - V1',
-    image: portfolio,
-    url: 'https://emanueldev.netlify.app/',
-  },
 ];
 
 export const EXPERIENCE = [

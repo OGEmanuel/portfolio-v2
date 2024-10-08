@@ -4,41 +4,47 @@ import duwitt from '@/public/images/Duwitt.png';
 import tester from '@/public/images/api-tester.png';
 import awaskill from '@/public/images/Awaskill.png';
 import codeEditor from '@/public/images/code-editor.png';
-import portfolio from '@/public/images/portfolio.png';
+import vouchers from '@/public/images/vouchers-project.png';
 
 export const PROJECTS = [
   {
     id: 1,
+    title: 'Shuttlers Voucher',
+    image: vouchers,
+    url: 'https://voucher.shuttlers.co/',
+  },
+  {
+    id: 2,
     title: 'Switch Online',
     image: switchOnline,
     url: 'https://www.switchonline.xyz/',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Dashboard Clone',
     image: dashboard,
     url: 'https://dashboard-cloned-by-emmanuel.vercel.app/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Duwitt Landing Page',
     image: duwitt,
     url: 'https://duwitt-site.netlify.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'API Tester',
     image: tester,
     url: 'https://my-api-tester.vercel.app/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Awaskill',
     image: awaskill,
     url: 'https://awaskill.vercel.app/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Code Editor',
     image: codeEditor,
     url: 'https://my-code-editor-five.vercel.app/',

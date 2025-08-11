@@ -8,7 +8,7 @@ const ProjectItem = ({
   setIsProject,
 }: {
   title: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   setIsProject: Dispatch<SetStateAction<boolean>>;
   url: string;
 }) => {

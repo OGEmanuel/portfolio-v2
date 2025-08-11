@@ -12,55 +12,59 @@ gsap.registerPlugin(ScrollTrigger);
 const Experience = () => {
   useGSAP(() => {
     const isMobile = window.innerWidth <= 1024;
-    const experience = document.querySelector('.experience') as HTMLElement;
-    const firstExperience = document.querySelector('.shuttlers') as HTMLElement;
-    const secondExperience = document.querySelector(
-      '.capriquota',
-    ) as HTMLElement;
-    const thirdExperience = document.querySelector('.dev') as HTMLElement;
-    const container = document.querySelector('.container') as HTMLElement;
+    if (typeof window != undefined) {
+      const experience = document.querySelector('.experience') as HTMLElement;
+      const firstExperience = document.querySelector(
+        '.shuttlers',
+      ) as HTMLElement;
+      const secondExperience = document.querySelector(
+        '.capriquota',
+      ) as HTMLElement;
+      const thirdExperience = document.querySelector('.cognito') as HTMLElement;
+      const container = document.querySelector('.container') as HTMLElement;
 
-    if (!isMobile) {
-      if (
-        !experience ||
-        !firstExperience ||
-        !secondExperience ||
-        !thirdExperience ||
-        !container
-      )
-        return;
-      ScrollTrigger.create({
-        trigger: '.experience',
-        start: 'top 20%',
-        end: 'bottom 20%',
-        scrub: true,
-        pin: true,
-      });
+      if (!isMobile) {
+        if (
+          !experience ||
+          !firstExperience ||
+          !secondExperience ||
+          !thirdExperience ||
+          !container
+        )
+          return;
+        ScrollTrigger.create({
+          trigger: '.experience',
+          start: 'top 20%',
+          end: 'bottom 20%',
+          scrub: true,
+          pin: true,
+        });
 
-      ScrollTrigger.create({
-        trigger: '.container',
-        start: 'top 20%',
-        end: '+=682.64',
-        scrub: true,
-        pin: '.shuttlers',
-      });
+        ScrollTrigger.create({
+          trigger: '.container',
+          start: 'top 20%',
+          end: '+=682.64',
+          scrub: true,
+          pin: '.cognito',
+        });
 
-      ScrollTrigger.create({
-        trigger: '.capriquota',
-        start: 'top 20%',
-        end: '+=341.32',
-        scrub: true,
-        pin: true,
-      });
+        ScrollTrigger.create({
+          trigger: '.shuttlers',
+          start: 'top 20%',
+          end: '+=341.32',
+          scrub: true,
+          pin: true,
+        });
 
-      ScrollTrigger.create({
-        trigger: '.dev',
-        start: 'top 20%',
-        end: 'top 20%',
-        scrub: true,
-        pin: true,
-        pinSpacing: false,
-      });
+        ScrollTrigger.create({
+          trigger: '.capriquota',
+          start: 'top 20%',
+          end: 'top 20%',
+          scrub: true,
+          pin: true,
+          pinSpacing: false,
+        });
+      }
     }
   });
 

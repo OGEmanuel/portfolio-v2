@@ -18,10 +18,14 @@ const Projects = () => {
       setPosition({ x: event.clientX, y: event.clientY });
     };
 
-    document.addEventListener('mousemove', handleMouseMove);
+    if (typeof window != undefined) {
+      document.addEventListener('mousemove', handleMouseMove);
+    }
 
     return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
+      if (typeof window != undefined) {
+        document.removeEventListener('mousemove', handleMouseMove);
+      }
     };
   }, []);
 

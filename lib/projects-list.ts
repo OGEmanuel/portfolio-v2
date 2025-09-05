@@ -1,7 +1,4 @@
-import switchOnline from '@/public/images/switch-online-home.png';
 import tester from '@/public/images/api-tester.png';
-import vouchers from '@/public/images/vouchers-project.png';
-import infonerds from '@/public/images/infonerds.png';
 
 export const PROJECTS = [
   {
@@ -10,6 +7,36 @@ export const PROJECTS = [
     image:
       'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754913287/Screenshot_2025-08-11_at_12.54.30_rpixzx.png',
     url: 'https://mooredh.com/',
+    description:
+      'A portfolio website displaying the works and achievements of MooreDH.',
+  },
+  {
+    id: 2,
+    title: 'Martha AI',
+    image:
+      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754912939/Screenshot_2025-08-11_at_12.48.41_mcybiv.png',
+    url: 'https://www.askmartha.ai/',
+    description:
+      'A platform that allows businesses to track how their products are performing in the market, providing support with AI.',
+  },
+  {
+    id: 3,
+    title: 'Health Som.',
+    image:
+      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1757097792/Screenshot_2025-09-05_at_19.37.36_ppfywq.png',
+    url: 'https://health-somn.vercel.app/auth/login',
+    github: 'https://github.com/OGEmanuel/health-som.',
+    description:
+      'An Electronic Health Record (EHR) system that allows users to manage their medical records and access their health information securely.',
+  },
+  {
+    id: 4,
+    title: 'API Tester',
+    image: tester,
+    url: 'https://my-api-tester.vercel.app/',
+    github: 'https://github.com/OGEmanuel/my-api-tester',
+    description:
+      'A simple API testing tool that allows users to test their API endpoints.',
   },
   // {
   //   id: 2,
@@ -18,13 +45,7 @@ export const PROJECTS = [
   //     'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754913157/Screenshot_2025-08-11_at_12.52.06_moia4n.png',
   //   url: 'https://home-radar-ruby.vercel.app/',
   // },
-  {
-    id: 3,
-    title: 'Martha AI',
-    image:
-      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754912939/Screenshot_2025-08-11_at_12.48.41_mcybiv.png',
-    url: 'https://www.askmartha.ai/',
-  },
+
   // {
   //   id: 4,
   //   title: 'BlackPride YYC',
@@ -57,12 +78,6 @@ export const PROJECTS = [
   //   image: switchOnline,
   //   url: 'https://www.switchonline.xyz/',
   // },
-  {
-    id: 9,
-    title: 'API Tester',
-    image: tester,
-    url: 'https://my-api-tester.vercel.app/',
-  },
 ];
 
 export const EXPERIENCE = [

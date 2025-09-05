@@ -38,7 +38,7 @@ const Projects = () => {
       onMouseUp={() => setClicked(false)}
     >
       <ItemSection title="Projects">
-        <div className="flex flex-wrap items-center gap-3 md:w-full md:justify-center lg:w-auto lg:justify-normal">
+        <div className="flex flex-wrap gap-3 md:w-full md:justify-center lg:w-auto lg:justify-normal">
           {PROJECTS.map(project => (
             <ProjectItem
               key={project.id}
@@ -46,6 +46,8 @@ const Projects = () => {
               title={project.title}
               image={project.image}
               url={project.url}
+              github={project.github}
+              description={project.description}
             />
           ))}
         </div>

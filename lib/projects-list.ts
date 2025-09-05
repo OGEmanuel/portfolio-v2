@@ -27,7 +27,7 @@ export const PROJECTS = [
     url: 'https://health-somn.vercel.app/auth/login',
     github: 'https://github.com/OGEmanuel/health-som.',
     description:
-      'An Electronic Health Record (EHR) system that allows users to manage their medical records and access their health information securely.',
+      'An Electronic Medical Record (EMR) system that allows users to manage their medical records and access their health information securely.',
   },
   {
     id: 4,

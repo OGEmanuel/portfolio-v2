@@ -65,5 +65,5 @@ Pull requests and suggestions are welcome! For major changes, please open an iss
 
 - **Emmanuel OGE**
 - [GitHub](https://github.com/OGEmanuel)
-- [LinkedIn](https://www.linkedin.com/in/emmanuel-oge/)
-- [Twitter/X](https://twitter.com/OGEmanuel)
+- [LinkedIn](https://www.linkedin.com/in/emmanuel-ogunmola-a5007a1a6/)
+- [Twitter/X](https://x.com/its_GODwithMe)

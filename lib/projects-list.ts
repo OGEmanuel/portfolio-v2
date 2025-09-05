@@ -11,13 +11,13 @@ export const PROJECTS = [
       'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754913287/Screenshot_2025-08-11_at_12.54.30_rpixzx.png',
     url: 'https://mooredh.com/',
   },
-  {
-    id: 2,
-    title: 'Home Radar',
-    image:
-      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754913157/Screenshot_2025-08-11_at_12.52.06_moia4n.png',
-    url: 'https://home-radar-ruby.vercel.app/',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Home Radar',
+  //   image:
+  //     'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754913157/Screenshot_2025-08-11_at_12.52.06_moia4n.png',
+  //   url: 'https://home-radar-ruby.vercel.app/',
+  // },
   {
     id: 3,
     title: 'Martha AI',
@@ -25,38 +25,38 @@ export const PROJECTS = [
       'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754912939/Screenshot_2025-08-11_at_12.48.41_mcybiv.png',
     url: 'https://www.askmartha.ai/',
   },
-  {
-    id: 4,
-    title: 'BlackPride YYC',
-    image:
-      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754912768/Screenshot_2025-08-11_at_12.45.49_ltoyyg.png',
-    url: 'https://www.blackprideyyc.org/',
-  },
-  {
-    id: 5,
-    title: 'Pluto Homes',
-    image:
-      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754912418/Screenshot_2025-08-11_at_12.38.54_akdx8z.png',
-    url: 'https://www.plutohomes.org/',
-  },
-  {
-    id: 6,
-    title: 'The Infonerds Gallery',
-    image: infonerds,
-    url: 'https://the-infonerds.vercel.app/',
-  },
-  {
-    id: 7,
-    title: 'Shuttlers Voucher',
-    image: vouchers,
-    url: 'https://www.shuttlers.co/products/voucher',
-  },
-  {
-    id: 8,
-    title: 'Switch Online',
-    image: switchOnline,
-    url: 'https://www.switchonline.xyz/',
-  },
+  // {
+  //   id: 4,
+  //   title: 'BlackPride YYC',
+  //   image:
+  //     'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754912768/Screenshot_2025-08-11_at_12.45.49_ltoyyg.png',
+  //   url: 'https://www.blackprideyyc.org/',
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Pluto Homes',
+  //   image:
+  //     'https://res.cloudinary.com/dl56ef7sx/image/upload/v1754912418/Screenshot_2025-08-11_at_12.38.54_akdx8z.png',
+  //   url: 'https://www.plutohomes.org/',
+  // },
+  // {
+  //   id: 6,
+  //   title: 'The Infonerds Gallery',
+  //   image: infonerds,
+  //   url: 'https://the-infonerds.vercel.app/',
+  // },
+  // {
+  //   id: 7,
+  //   title: 'Shuttlers Voucher',
+  //   image: vouchers,
+  //   url: 'https://www.shuttlers.co/products/voucher',
+  // },
+  // {
+  //   id: 8,
+  //   title: 'Switch Online',
+  //   image: switchOnline,
+  //   url: 'https://www.switchonline.xyz/',
+  // },
   {
     id: 9,
     title: 'API Tester',

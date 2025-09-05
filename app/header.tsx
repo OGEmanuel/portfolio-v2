@@ -23,7 +23,7 @@ const Header = () => {
         Emmanuel Ogunmola
       </h1>
       <div className="flex w-full flex-col items-start gap-[1.75rem] sm:w-auto sm:items-center">
-        <div className="flex gap-2 self-center rounded-[6.25rem] border border-[#889096] px-4 py-2 sm:items-center">
+        <div className="flex items-center gap-2 self-center rounded-[6.25rem] border border-[#889096] px-4 py-2">
           <div className="flex h-3 w-3 animate-pulse items-center justify-center rounded-full bg-green-300">
             <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-600"></div>
           </div>

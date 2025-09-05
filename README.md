@@ -63,7 +63,7 @@ Pull requests and suggestions are welcome! For major changes, please open an iss
 
 ## Author & Contact
 
-- **Emmanuel OGE**
+- **Emmanuel Ogunmola**
 - [GitHub](https://github.com/OGEmanuel)
 - [LinkedIn](https://www.linkedin.com/in/emmanuel-ogunmola-a5007a1a6/)
 - [Twitter/X](https://x.com/its_GODwithMe)

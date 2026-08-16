@@ -91,6 +91,8 @@ export const SkillsSection = () => {
     <ItemSection title="Skills">
       <ul className="flex w-full list-disc flex-col gap-3 self-start p-0 [&>li]:ml-4">
         <li>React JS</li>
+        <li>React Native</li>
+        <li>Tanstack Start</li>
         <li>Next JS</li>
         <li>Tailwind CSS</li>
         <li>Typescript</li>
@@ -100,7 +102,6 @@ export const SkillsSection = () => {
         <li>Framer-motion</li>
         <li>SCSS</li>
         <li>Version Control</li>
-        <li>React Native</li>
       </ul>
     </ItemSection>
   );

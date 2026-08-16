@@ -36,7 +36,7 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-2 px-4 py-2">
             <LocationIcon />
-            <p className="font-medium text-[#495057]">Lagos, Nigeria</p>
+            <p className="font-medium text-[#495057]">Muscat, Oman</p>
           </div>
           <div className="flex items-center gap-2 px-4 py-2">
             <ClockIcon />

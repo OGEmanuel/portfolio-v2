@@ -2,6 +2,14 @@ import tester from '@/public/images/api-tester.png';
 
 export const PROJECTS = [
   {
+    id: 3,
+    title: 'Alvinn',
+    image:
+      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1786891490/Screenshot_2026-08-16_at_18.41.58_lavgrl.png',
+    url: 'https://alvinn.app/',
+    description: 'The identity platform for the next generation of creators',
+  },
+  {
     id: 1,
     title: 'CEO Portfolio',
     image:
@@ -20,23 +28,12 @@ export const PROJECTS = [
       'A platform that allows businesses to track how their products are performing in the market, providing support with AI.',
   },
   {
-    id: 3,
-    title: 'Health Som.',
-    image:
-      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1757097792/Screenshot_2025-09-05_at_19.37.36_ppfywq.png',
-    url: 'https://health-somn.vercel.app/auth/login',
-    github: 'https://github.com/OGEmanuel/health-som.',
-    description:
-      'An Electronic Medical Record (EMR) system that allows users to manage their medical records and access their health information securely.',
-  },
-  {
     id: 4,
-    title: 'API Tester',
-    image: tester,
-    url: 'https://my-api-tester.vercel.app/',
-    github: 'https://github.com/OGEmanuel/my-api-tester',
-    description:
-      'A simple API testing tool that allows users to test their API endpoints.',
+    title: 'Nerd Not Noob',
+    image:
+      'https://res.cloudinary.com/dl56ef7sx/image/upload/v1786892037/Screenshot_2026-08-16_at_18.53.43_r3lu5p.png',
+    url: 'https://www.nerdnotnoob.com/',
+    description: 'A photo and video gallery for Nerd Not Noob',
   },
   // {
   //   id: 2,
@@ -83,55 +80,55 @@ export const PROJECTS = [
 export const EXPERIENCE = [
   {
     id: 1,
-    title: 'Senior Frontend Engineer',
-    company: 'Cognito Systems',
+    title: 'Lead Design Engineer',
+    company: 'Alvinn',
     location: 'Lagos',
-    startDate: 'January 2025',
+    startDate: 'January 2026',
     endDate: 'Present',
     description: [
       {
         id: 1.1,
-        text: 'Architected and optimized complex frontend systems, ensuring scalability, maintainability, and alignment with business goals.',
+        text: 'Built a reusable design system with Shadcn, TypeScript, and Tailwind CSS, and supporting both light and dark themes',
       },
       {
         id: 1.2,
-        text: 'Mentored and guided junior engineers, fostering best practices in code quality, performance optimization, and collaborative development.',
+        text: 'Established TanStack Start as the frontend architecture, leveraging end-to-end type safety, server-side rendering, and SEO capabilities.',
       },
       {
         id: 1.3,
-        text: 'Collaborated closely with cross-functional teams to translate product requirements into performant, accessible, and visually engaging user interfaces.',
+        text: "Defined the application's state architecture with Zustand for synchronous client state and TanStack Query for asynchronous server state",
       },
     ],
   },
   {
     id: 2,
-    title: 'Frontend Engineer',
-    company: 'Shuttlers',
+    title: 'Frontend Engineer (Mobile & Web)',
+    company: 'Zap Africa',
     location: 'Lagos',
-    startDate: 'August 2023',
-    endDate: 'January 2025',
+    startDate: 'January 2025',
+    endDate: 'December 2025',
     description: [
       {
         id: 2.1,
-        text: 'Led a cross-functional team comprising designers, backend developers, and QA engineers to overhaul the frontend architecture, resulting in a 15% reduction in page load times and a 20% increase in user engagement metrics.',
+        text: 'Implemented TanStack Query for mobile data caching and background refetching, reducing redundant network requests by 32%.',
       },
       {
         id: 2.2,
-        text: 'Spearheaded and implemented UI enhancement, resulting in a 20% reduction in page load times.',
+        text: 'Designed a reusable mobile component system with TypeScript and Tailwind-style utility patterns, cutting UI development time for new screens by 45%.',
       },
       {
         id: 2.3,
-        text: 'Responsible for code reviews with a focus on identifying and addressing performance bottlenecks, leading to a 30% improvement in code quality.',
+        text: 'Integrated REST APIs with proper loading, error, and offline states, reducing crash reports caused by network failures by 60% during testing',
       },
     ],
   },
   {
     id: 3,
-    title: 'Frontend Engineer',
-    company: 'Capriquota',
+    title: 'Junior Frontend Engineer (Contract)',
+    company: 'Shuttlers',
     location: 'Remote',
-    startDate: 'January 2023',
-    endDate: 'August 2023',
+    startDate: 'August 2023',
+    endDate: 'January 2025',
     description: [
       {
         id: 3.1,

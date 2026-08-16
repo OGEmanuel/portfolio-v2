@@ -18,12 +18,12 @@ const Projects = () => {
       setPosition({ x: event.clientX, y: event.clientY });
     };
 
-    if (typeof window != undefined) {
+    if (typeof window != 'undefined') {
       document.addEventListener('mousemove', handleMouseMove);
     }
 
     return () => {
-      if (typeof window != undefined) {
+      if (typeof window != 'undefined') {
         document.removeEventListener('mousemove', handleMouseMove);
       }
     };
@@ -46,7 +46,7 @@ const Projects = () => {
               title={project.title}
               image={project.image}
               url={project.url}
-              github={project.github}
+              // github={project?.github}
               description={project.description}
             />
           ))}

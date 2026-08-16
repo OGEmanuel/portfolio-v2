@@ -17,6 +17,9 @@ const ProjectItem = ({
   github?: string;
   description: string;
 }) => {
+  const handleGoToGithub = () => {
+    window.open(github, '_blank');
+  };
   return (
     <a
       onMouseEnter={() => setIsProject(true)}
@@ -38,15 +41,14 @@ const ProjectItem = ({
         <div className="flex items-center justify-between">
           <p className="font-semibold text-[#11181C]">{title}</p>
           {github && (
-            <a
+            <button
               onMouseEnter={() => setIsProject(false)}
               onMouseLeave={() => setIsProject(true)}
-              href={github}
-              target="_blank"
+              onClick={handleGoToGithub}
               className="z-20 block rounded-full border border-[#E6E8EB] p-2"
             >
               <GithubIcon />
-            </a>
+            </button>
           )}
         </div>
         <p className="text-xs">{description}</p>

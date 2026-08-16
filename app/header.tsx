@@ -32,7 +32,9 @@ const Header = () => {
         <div className="flex flex-col sm:flex-row sm:items-center">
           <div className="flex items-center gap-2 px-4 py-2">
             <BriefcaseIcon />
-            <p className="font-medium text-[#495057]">Frontend Engineer</p>
+            <p className="font-medium text-[#495057]">
+              Senior Frontend Engineer
+            </p>
           </div>
           <div className="flex items-center gap-2 px-4 py-2">
             <LocationIcon />

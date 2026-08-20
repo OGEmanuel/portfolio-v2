@@ -80,7 +80,7 @@ export const PROJECTS = [
 export const EXPERIENCE = [
   {
     id: 1,
-    title: 'Lead Design Engineer',
+    title: 'Frontend Engineer',
     company: 'Alvinn',
     location: 'Lagos',
     startDate: 'January 2026',
@@ -88,21 +88,21 @@ export const EXPERIENCE = [
     description: [
       {
         id: 1.1,
-        text: 'Built a reusable design system with Shadcn, TypeScript, and Tailwind CSS, and supporting both light and dark themes',
+        text: 'Built a 10+ component design system (Shadcn, Typescript, Tailwind), using the React Composition pattern, cutting new-feature UI build time by 40% and eliminating inconsistent theming across the app',
       },
       {
         id: 1.2,
-        text: 'Established TanStack Start as the frontend architecture, leveraging end-to-end type safety, server-side rendering, and SEO capabilities.',
+        text: 'Migrated the frontend to TanStack Start, reducing initial load time by 12% (Lighthouse) and improving SEO performance, with the application appearing on the first page of Google search results for “Alvinn.”',
       },
       {
         id: 1.3,
-        text: "Defined the application's state architecture with Zustand for synchronous client state and TanStack Query for asynchronous server state",
+        text: 'Redesigned state architecture (Zustand + Tanstack Query), reducing state-related bugs by 25%, cutting onboarding time for new engineers.',
       },
     ],
   },
   {
     id: 2,
-    title: 'Frontend Engineer (Mobile & Web)',
+    title: 'Frontend Engineer (Web & Mobile)',
     company: 'Zap Africa',
     location: 'Lagos',
     startDate: 'January 2025',
@@ -110,21 +110,21 @@ export const EXPERIENCE = [
     description: [
       {
         id: 2.1,
-        text: 'Implemented TanStack Query for mobile data caching and background refetching, reducing redundant network requests by 32%.',
+        text: 'Implemented TanStack Query for mobile data caching and background refetching, reducing redundant network requests by 32% and improving screen-to-screen load times by 38% (Lighthouse) on average.',
       },
       {
         id: 2.2,
-        text: 'Designed a reusable mobile component system with TypeScript and Tailwind-style utility patterns, cutting UI development time for new screens by 45%.',
+        text: 'Built Jest test suites covering 4+ reusable mobile components, raising regression coverage and ensuring consistent component behavior across new screens.',
       },
       {
         id: 2.3,
-        text: 'Integrated REST APIs with proper loading, error, and offline states, reducing crash reports caused by network failures by 60% during testing',
+        text: 'Integrated 5+ REST APIs with proper loading, error, and offline states, reducing crash reports caused by network failures by 60% during testing.',
       },
     ],
   },
   {
     id: 3,
-    title: 'Junior Frontend Engineer (Contract)',
+    title: 'Frontend Engineer (Contract)',
     company: 'Shuttlers',
     location: 'Remote',
     startDate: 'August 2023',
@@ -132,38 +132,16 @@ export const EXPERIENCE = [
     description: [
       {
         id: 3.1,
-        text: 'Deployed server-side rendering (SSR) using Next.js to improve page load times by 10% and SEO performance.',
+        text: 'Shipped 10 responsive UI components used across 4 products, reducing design-to-dev handoff time by 40%.',
       },
       {
         id: 3.2,
-        text: 'Partnered with senior developers in reducing development time by 25%, making use of technologies like React.Js',
+        text: 'Built Playwright end-to-end test suites covering 5+ critical user workflows, catching regressions before production, and improving confidence in feature releases.',
       },
       {
         id: 3.3,
-        text: 'Coordinated with the product design team to design and implement an intuitive user interface and achieved a 20% increase in user engagement',
+        text: 'Reviewed 5+ PRs/week, cutting post-release bugs by 30%.',
       },
     ],
   },
-  // {
-  //   id: 4,
-  //   title: 'Frontend Engineer Intern',
-  //   company: 'Dev Career',
-  //   location: 'Ibadan',
-  //   startDate: 'September 2022',
-  //   endDate: 'December 2022',
-  //   description: [
-  //     {
-  //       id: 4.1,
-  //       text: 'Worked jointly with senior developers to assist in developing responsive websites using HTML, CSS, and JavaScript.',
-  //     },
-  //     {
-  //       id: 4.2,
-  //       text: 'Assisted in developing and maintaining front-end components of web applications using modern frameworks like React.',
-  //     },
-  //     {
-  //       id: 4.3,
-  //       text: 'Collaborated with senior developers to develop responsive web applications that were optimised for different screen sizes.',
-  //     },
-  //   ],
-  // },
 ];

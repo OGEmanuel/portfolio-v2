@@ -36,7 +36,7 @@ export const ContactSection = () => {
         </p>
         <p>
           Phone:{' '}
-          <span className="font-normal text-[#495057]">+234 818 486 5896</span>
+          <span className="font-normal text-[#495057]">+968 7527 0095</span>
         </p>
         <p>
           LinkedIn:{' '}
@@ -100,6 +100,10 @@ export const SkillsSection = () => {
         <li>Tanstack Query</li>
         <li>GSAP</li>
         <li>Framer-motion</li>
+        <li>Zustand</li>
+        <li>Tanstack Query</li>
+        <li>Jest</li>
+        <li>Playwright</li>
         <li>SCSS</li>
         <li>Version Control</li>
       </ul>

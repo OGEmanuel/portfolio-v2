@@ -9,7 +9,7 @@ export const AboutSection = () => {
       <div>
         <p>
           Hey...hey...Emmanuel here 👋🏾,{' '}
-          {`I’m a Senior Frontend Engineer who’s passionate about building simple, intuitive, and engaging interfaces. My day-to-day toolkit revolves around React and Next.js, and I care deeply about building scalable, maintainable frontends that balance clean architecture with delightful interactions. For that extra spark of delight, I enjoy experimenting with motion using GSAP and Framer (you might even notice some of it on this page 🤪).`}{' '}
+          {`I’m a Frontend Engineer who’s passionate about building simple, intuitive, and engaging interfaces. My day-to-day toolkit revolves around React and Next.js, and I care deeply about building scalable, maintainable frontends that balance clean architecture with delightful interactions. For that extra spark of delight, I enjoy experimenting with motion using GSAP and Framer (you might even notice some of it on this page 🤪).`}{' '}
           <br /> <br />
           {`          Over the years, I’ve had the chance to collaborate with designers, product managers, and engineers to ship products that not only work well but feel great to use. I take pride in writing clean, maintainable code, mentoring teammates, and thinking ahead about scalability and user experience — the details that make a project truly stand out.`}{' '}
           <br />

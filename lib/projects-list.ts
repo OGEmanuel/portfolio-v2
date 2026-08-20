@@ -88,11 +88,11 @@ export const EXPERIENCE = [
     description: [
       {
         id: 1.1,
-        text: 'Built a 10+ component design system (Shadcn, Typescript, Tailwind), using the React Composition pattern, cutting new-feature UI build time by 40% and eliminating inconsistent theming across the app',
+        text: 'Built a 10+ component design system (Shadcn, Typescript, Tailwind), using the React Composition pattern, cutting new-feature UI build time by 40%',
       },
       {
         id: 1.2,
-        text: 'Migrated the frontend to TanStack Start, reducing initial load time by 12% (Lighthouse) and improving SEO performance, with the application appearing on the first page of Google search results for “Alvinn.”',
+        text: 'Migrated the frontend to TanStack Start, reducing initial load time by 12% (Lighthouse) and improving SEO performance.',
       },
       {
         id: 1.3,
@@ -110,7 +110,7 @@ export const EXPERIENCE = [
     description: [
       {
         id: 2.1,
-        text: 'Implemented TanStack Query for mobile data caching and background refetching, reducing redundant network requests by 32% and improving screen-to-screen load times by 38% (Lighthouse) on average.',
+        text: 'Implemented TanStack Query for mobile data caching and background refetching, reducing redundant network requests by 32%',
       },
       {
         id: 2.2,

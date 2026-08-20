@@ -12,15 +12,13 @@ gsap.registerPlugin(ScrollTrigger);
 const Experience = () => {
   useGSAP(() => {
     const isMobile = window.innerWidth <= 1024;
-    if (typeof window != undefined) {
+    if (typeof window != 'undefined') {
       const experience = document.querySelector('.experience') as HTMLElement;
-      const firstExperience = document.querySelector(
+      const firstExperience = document.querySelector('.alvinn') as HTMLElement;
+      const secondExperience = document.querySelector('.zap') as HTMLElement;
+      const thirdExperience = document.querySelector(
         '.shuttlers',
       ) as HTMLElement;
-      const secondExperience = document.querySelector(
-        '.capriquota',
-      ) as HTMLElement;
-      const thirdExperience = document.querySelector('.cognito') as HTMLElement;
       const container = document.querySelector('.container') as HTMLElement;
 
       if (!isMobile) {
@@ -45,11 +43,11 @@ const Experience = () => {
           start: 'top 20%',
           end: '+=682.64',
           scrub: true,
-          pin: '.cognito',
+          pin: '.alvinn',
         });
 
         ScrollTrigger.create({
-          trigger: '.shuttlers',
+          trigger: '.zap',
           start: 'top 20%',
           end: '+=341.32',
           scrub: true,
@@ -57,7 +55,7 @@ const Experience = () => {
         });
 
         ScrollTrigger.create({
-          trigger: '.capriquota',
+          trigger: '.shuttlers',
           start: 'top 20%',
           end: 'top 20%',
           scrub: true,
